@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #141414;
+}
+.header-title{
+    color: #FFFFFF;
+}
+.header-link{
+    color: #FFFFFF;
+}
