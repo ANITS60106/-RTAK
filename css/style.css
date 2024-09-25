@@ -1,8 +1,30 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   box-sizing: border-box; 
+=======
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    background: #141414;
+}
+.limit{
+    margin-left: 29px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+>>>>>>> origin/main
 }
 
 header {
@@ -272,6 +294,7 @@ footer .footer-nav_extra {
   box-shadow: 0 0.375rem 1.875rem 0 rgba(0, 0, 0, 0.08); 
 }
 
+<<<<<<< HEAD
 
 .group-8 {
   position: relative; 
@@ -495,6 +518,76 @@ footer .footer-nav_extra {
   display: flex;
 }
 
+=======
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: #141414;
+    padding: 10px;
+    width: 100%; 
+    flex-shrink: 0;
+    margin-top: 20px; 
+}
+
+footer .footer-nav{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0;
+    gap: 14px; 
+}
+
+.flex-centerfooter {
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.footer-nav {
+    color: #FFFFFF;
+    font-family: "Raleway"; 
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.line {
+    max-width: 599px;
+    height: 0px;
+    flex-shrink: 0;
+    color: #FFA300;
+    border: 2px solid #FFA300;
+}
+
+.footer_nav_extra{
+    color: #FFFFFF;
+    font-family: "Raleway"; 
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer .footer-nav_extra{
+    list-style-type: none;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 261px; 
+    margin: 0; 
+    padding: 0; 
+}
+>>>>>>> origin/main
 
 .achievement-item {
   display: flex;
