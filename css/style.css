@@ -777,7 +777,6 @@ h2 {
   background-color: #333;
 }
 
-/* Контейнер для цен */
 .containerpricing {
   width: 50rem; 
   background-color: white;
@@ -818,7 +817,6 @@ h2 {
   color: gray;
 }
 
-/* Преимущества */
 .benefits {
   display: flex;
   justify-content: space-around;
@@ -850,7 +848,6 @@ h2 {
   color: #333;
 }
 
-/* Контейнер для карты */
 .containerMAP {
   display: flex;
   flex-direction: column;
@@ -875,7 +872,6 @@ h2 {
   margin-bottom: 0.625rem; 
 }
 
-/* Контактная форма */
 .form-containerMAP {
   display: flex;
   justify-content: space-between;
@@ -952,7 +948,7 @@ h2 {
   border-radius: 0.3125rem; 
 }
 
-/* Стили для футера */
+
 footer {
   background-color: #1c1c1c;
   color: #ffffff;
@@ -1027,7 +1023,7 @@ footer {
   margin: 0;
 }
 
-/* Адаптация для мобильных устройств max-width: 599px */
+
 @media (max-width: 599px) {
   .wrapper {
     flex-direction: column;
@@ -1087,7 +1083,7 @@ footer {
 
   .screenshotM {
     width: 100%; 
-    max-width: 300px; /* Ограничение максимальной ширины */
+    max-width: 300px; 
     margin-right: 0; 
     margin-bottom: 1rem; 
   }
@@ -1113,7 +1109,7 @@ footer {
   }
 
   .icon {
-    width: 50%; /* Уменьшение размера иконки */
+    width: 50%; 
   }
 
   .achievements {
@@ -1139,7 +1135,7 @@ footer {
   }
 
   .sidebar {
-    display: none; /* Скрыть боковую панель */
+    display: none; 
   }
 
   .consultation-section {
